@@ -1,10 +1,11 @@
 
 
-## Project Overview
+### Project Overview
 
 This project is an object detection and voice assistant application developed using Hugging Face Transformers and Gradio.
 
 The application detects and localizes objects in uploaded images by displaying labels, confidence scores, and bounding boxes. It also creates a natural-language summary of the detected objects and converts that summary into spoken audio.
+
 ---
 
 ### Object Detection
