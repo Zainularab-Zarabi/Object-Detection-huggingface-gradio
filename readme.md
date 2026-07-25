@@ -1,4 +1,4 @@
-Object Detection and Voice Assistant Using Hugging Face and Gradio
+## Object Detection and Voice Assistant Using Hugging Face and Gradio
 
 ### Project Overview
 
