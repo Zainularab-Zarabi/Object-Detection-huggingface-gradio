@@ -135,7 +135,7 @@ from helper import load_image_from_url, render_results_in_image
 ```
 ---
 
-## Technologies Used
+### Technologies Used
 
 - **Programming Language:** Python 3
 - **Computer Vision Task:** Object Detection
@@ -146,13 +146,13 @@ from helper import load_image_from_url, render_results_in_image
 - **Libraries:** PyTorch, Transformers, Gradio, Pillow, Matplotlib, NumPy, and TIMM
 - **Helper Module:** `helper.py` for drawing bounding boxes, labels, confidence scores, and generating a text summary
 ---
-## Voice Assistant
+### Voice Assistant
 
 The project also includes a voice assistant feature.
 After the model detects the objects in an image, the detected labels are counted and converted into a natural-language sentence. The sentence is then processed by a Hugging Face text-to-speech model to generate spoken audio.
 The voice feature was successfully tested using one image in the notebook.
 
-## Project Files
+### Project Files
 
 | File | Description |
 |---|---|
