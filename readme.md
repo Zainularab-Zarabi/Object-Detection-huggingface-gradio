@@ -25,7 +25,7 @@ Unlike basic image classification, object detection can identify and locate mult
 
 ---
 
-## Model Used
+### Model Used
 
 The application uses the following pretrained Hugging Face model:
 
@@ -48,7 +48,7 @@ The model was already pretrained. Therefore, this project uses the model for inf
 
 ---
 
-## Application Workflow
+### Application Workflow
 
 The application follows these steps:
 
@@ -76,7 +76,7 @@ Processed Image Displayed in Gradio
 
 ---
 
-## Gradio Application
+### Gradio Application
 
 The prediction function sends the uploaded image to the object detection model and then creates the processed output image.
 
@@ -117,7 +117,7 @@ The input area accepts an uploaded image, and the output area displays the same 
 
 ---
 
-## Helper File
+### Helper File
 
 The project includes a supporting Python file named:
 
@@ -144,20 +144,18 @@ from helper import load_image_from_url, render_results_in_image
 
 ---
 
-## Technologies and Libraries
+### Technologies Used
 
-The following technologies were used:
-
-- Python
-- Jupyter Notebook
-- Hugging Face Transformers
-- Facebook DETR ResNet-50
-- Gradio
-- PyTorch
-- PIL/Pillow
-- Matplotlib
-- NumPy
-
+- **Programming Language:** Python 3
+- **Computer Vision Task:** Object Detection
+- **AI Model:** Facebook DETR with ResNet-50 (`facebook/detr-resnet-50`)
+- **Model Source:** Hugging Face Transformers
+- **Web Interface:** Gradio
+- **Deep Learning Framework:** PyTorch
+- **Image Processing:** Pillow (PIL) and Matplotlib
+- **Numerical Processing:** NumPy
+- **Supporting Library:** TIMM
+- **Helper Module:** Custom `helper.py` file for drawing bounding boxes, labels, and confidence scores
 ---
 
 ## Project Files
@@ -173,7 +171,7 @@ The following technologies were used:
 
 ---
 
-## Application Testing
+### Application Testing
 
 The same Gradio application was tested using three different images.
 
@@ -185,7 +183,7 @@ Each screenshot shows:
 - Bounding boxes
 - Confidence scores
 
-### Test 1
+#### Test 1
 
 The first image was uploaded and processed through the Gradio application.
 
@@ -193,7 +191,7 @@ The first image was uploaded and processed through the Gradio application.
 
 ---
 
-### Test 2
+#### Test 2
 
 The second image was uploaded and processed using the same application.
 
@@ -201,7 +199,7 @@ The second image was uploaded and processed using the same application.
 
 ---
 
-### Test 3
+#### Test 3
 
 The third image was uploaded and processed using the same application.
 
@@ -209,7 +207,7 @@ The third image was uploaded and processed using the same application.
 
 ---
 
-## How to Run the Application
+#### How to Run the Application
 
 ### 1. Download or clone the repository
 
@@ -247,7 +245,7 @@ Open the Gradio interface, upload an image, and submit it for object detection.
 
 ---
 
-## Results
+### Results
 
 The application successfully processed three different images.
 
@@ -261,7 +259,7 @@ For each image, the pretrained model:
 
 ---
 
-## Conclusion
+### Conclusion
 
 This project successfully demonstrates how a pretrained Hugging Face computer vision model can be integrated with Gradio.
 
