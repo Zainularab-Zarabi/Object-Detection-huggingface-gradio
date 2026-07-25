@@ -1,17 +1,10 @@
 
 
-### Project Overview
+## Project Overview
 
-This project demonstrates an object detection application developed using Hugging Face Transformers and Gradio.
+This project is an object detection and voice assistant application developed using Hugging Face Transformers and Gradio.
 
-The application allows a user to upload an image through a simple Gradio interface. A pretrained object detection model analyzes the image and returns a processed version containing:
-
-- Detected object names
-- Bounding boxes around the objects
-- Confidence scores for each prediction
-
-The application was tested successfully using three different images.
-
+The application detects and localizes objects in uploaded images by displaying labels, confidence scores, and bounding boxes. It also creates a natural-language summary of the detected objects and converts that summary into spoken audio.
 ---
 
 ### Object Detection
@@ -142,19 +135,22 @@ from helper import load_image_from_url, render_results_in_image
 ```
 ---
 
-### Technologies Used
+## Technologies Used
 
 - **Programming Language:** Python 3
 - **Computer Vision Task:** Object Detection
 - **AI Model:** Facebook DETR with ResNet-50 (`facebook/detr-resnet-50`)
-- **Model Source:** Hugging Face Transformers
+- **Model Platform:** Hugging Face Transformers
+- **Text-to-Speech:** Hugging Face text-to-speech/audio pipeline
 - **Web Interface:** Gradio
-- **Deep Learning Framework:** PyTorch
-- **Image Processing:** Pillow (PIL) and Matplotlib
-- **Numerical Processing:** NumPy
-- **Supporting Library:** TIMM
-- **Helper Module:** Custom `helper.py` file for drawing bounding boxes, labels, and confidence scores
+- **Libraries:** PyTorch, Transformers, Gradio, Pillow, Matplotlib, NumPy, and TIMM
+- **Helper Module:** `helper.py` for drawing bounding boxes, labels, confidence scores, and generating a text summary
 ---
+## Voice Assistant
+
+The project also includes a voice assistant feature.
+After the model detects the objects in an image, the detected labels are counted and converted into a natural-language sentence. The sentence is then processed by a Hugging Face text-to-speech model to generate spoken audio.
+The voice feature was successfully tested using one image in the notebook.
 
 ## Project Files
 
