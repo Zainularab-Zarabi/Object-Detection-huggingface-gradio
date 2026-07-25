@@ -1,13 +1,6 @@
-# Object Detection Using Hugging Face and Gradio
 
-## Machine Learning – Week 11 Lab
 
-**Student:** Zainularab Zarabi  
-**Project:** Gradio-Based Object Detection Application  
-
----
-
-## Project Overview
+### Project Overview
 
 This project demonstrates an object detection application developed using Hugging Face Transformers and Gradio.
 
@@ -21,7 +14,7 @@ The application was tested successfully using three different images.
 
 ---
 
-## Object Detection
+### Object Detection
 
 Object detection is a computer vision task that performs two main operations:
 
@@ -174,9 +167,9 @@ The following technologies were used:
 | `Object_detection.ipynb` | Main notebook containing the model, object detection process, and Gradio application |
 | `helper.py` | Supporting functions for drawing bounding boxes, labels, and confidence scores |
 | `README.md` | Project documentation |
-| `result1.png` | Gradio application result for the first test image |
-| `result2.png` | Gradio application result for the second test image |
-| `result3.png` | Gradio application result for the third test image |
+| `Image1_Kitchen.png` | Gradio application result for the first test image |
+| `Image2_Person.png` | Gradio application result for the second test image |
+| `Image3_Animals.png` | Gradio application result for the third test image |
 
 ---
 
@@ -196,7 +189,7 @@ Each screenshot shows:
 
 The first image was uploaded and processed through the Gradio application.
 
-![Gradio Object Detection Test 1](result1.png)
+![Gradio Object Detection Test 1](Image1_Kitchen.png)
 
 ---
 
@@ -204,7 +197,7 @@ The first image was uploaded and processed through the Gradio application.
 
 The second image was uploaded and processed using the same application.
 
-![Gradio Object Detection Test 2](result2.png)
+![Gradio Object Detection Test 2](Image2_Person.png)
 
 ---
 
@@ -212,7 +205,7 @@ The second image was uploaded and processed using the same application.
 
 The third image was uploaded and processed using the same application.
 
-![Gradio Object Detection Test 3](result3.png)
+![Gradio Object Detection Test 3](Image3_Animals.png)
 
 ---
 
