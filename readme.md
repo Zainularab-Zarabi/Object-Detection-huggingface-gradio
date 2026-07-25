@@ -73,7 +73,6 @@ Helper Function
       ↓
 Processed Image Displayed in Gradio
 ```
-
 ---
 
 ### Gradio Application
@@ -141,7 +140,6 @@ The notebook imports the helper function using:
 ```python
 from helper import load_image_from_url, render_results_in_image
 ```
-
 ---
 
 ### Technologies Used
